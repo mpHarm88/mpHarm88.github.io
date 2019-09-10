@@ -11,7 +11,7 @@ description: Data Science | Seattle
 # *** If you're not sure what this mean, then leave this section as it is. Only modify the url and baseurl if you know what you're doing!***
 
 # url is the the website domain URL without a trailing slash
-#url: "https://example.com"
+#url: "https://mpHarm88.github.io"
 
 # baseurl should be an empty string
 #baseurl: ""
@@ -38,13 +38,13 @@ avatar: "/img/avatar-icon.png"
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#4E4E6A"
-navbar-text-col: "#404040"
+navbar-col: "#420000"
+navbar-text-col: "#d4d7dd"
 navbar-children-col: "#F5F5F5"
-page-col: "#E7E8F5"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-footer-col: "#F5F5F5"
+page-col: "#f6f6f6"
+link-col: "#d4d7dd"
+hover-col: "#eae9e9"
+footer-col: "#d4d7dd"
 footer-text-col: "#777777"
 footer-link-col: "#404040"
 
