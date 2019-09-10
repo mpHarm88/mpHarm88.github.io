@@ -38,15 +38,15 @@ avatar: "/img/avatar-icon.png"
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#420000"
-navbar-text-col: "#d4d7dd"
+navbar-col: "#d4d7dd"
+navbar-text-col: "#420000"
 navbar-children-col: "#F5F5F5"
 page-col: "#f6f6f6"
 link-col: "#d4d7dd"
 hover-col: "#eae9e9"
-footer-col: "#d4d7dd"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
+footer-col: "#eae9e9"
+footer-text-col: "#420000"
+footer-link-col: "#420000"
 
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
@@ -60,7 +60,7 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Some Person
+  name: Mikio Harman
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
@@ -68,10 +68,9 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   rss: true
-  email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
+  email: "mikioharman@gmail.com"
+  github: mpHarm88
+  twitter:Harmanmikio
 #  reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
