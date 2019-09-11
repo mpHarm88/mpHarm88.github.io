@@ -51,8 +51,8 @@ footer-link-col: "#420000"
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
 
-navbar-img: "/img/seward.jpg"
-footer-img: "/img/seward.jpg"
+navbar-img: "/img/seward-head.jpg"
+footer-img: "/img/seward-footer.jpg"
 # page-img: "/img/bgimage.png"
 
 # --- Footer options --- #
