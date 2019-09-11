@@ -1,7 +1,7 @@
 # --- General options --- #
 
 # Name of website
-title: Multidimensional Analysis of Data
+title: Multidimensional Analysis
 
 # Short description of your site
 description: Data Science
@@ -51,7 +51,7 @@ footer-link-col: "#420000"
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
 
-navbar-img: "/img/view-from-seward-park.jpg"
+navbar-img: "/img/Seward-Park-view-of-Seattle.jpg"
 # footer-img: "/img/bgimage.png"
 # page-img: "/img/bgimage.png"
 
