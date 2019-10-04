@@ -20,7 +20,7 @@ description: Data Science
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
+  About Me: "about_me"
   Resources:
     - Learn markdown: "http://www.markdowntutorial.com/"
   Author's home: ""
@@ -74,7 +74,7 @@ social-network-links:
 #  linkedin: daattali
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
-#  snapchat: deanat78
+  snapchat: openarea
 #  instagram: deanat78
 #  youtube: user/deanat78
 #  spotify: yourname
