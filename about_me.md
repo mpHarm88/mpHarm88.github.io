@@ -1,6 +1,6 @@
 ---
 title: About Me
-subtitle: A little about myself
+subtitle: a little about myself
 layout: page
 ---
 
