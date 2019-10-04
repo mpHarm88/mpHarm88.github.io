@@ -1,9 +1,8 @@
-___
-
+---
 title: About Me
 subtitle: A little about myself
 layout: page
-___
+---
 
 Hello,
 
