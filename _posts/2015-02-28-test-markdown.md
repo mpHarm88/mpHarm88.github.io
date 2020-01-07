@@ -5,6 +5,11 @@ title: Would You ELect Chocolate Pancakes For President
 subtitle: A look at US presidential campaign funding since 1980
 
 ---
+
+<div align="center">
+  <img src="https://github.com/mpHarm88/mpHarm88.github.io/blob/master/img/chart1.png"><br>
+</div>
+
 # Would You Elect Chocolate Pancakes For President
 
 That's the name of one of the 2020 presidential candidates as seen [here](https://www.fec.gov/data/candidates/?q=P00012286&is_active_candidate=true&has_raised_funds=true)
