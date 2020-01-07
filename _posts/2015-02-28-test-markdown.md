@@ -7,7 +7,7 @@ subtitle: A look at US presidential campaign funding since 1980
 ---
 
 <div align="center">
-  <img src="https://github.com/mpHarm88/mpHarm88.github.io/blob/master/img/chart1.png"><br>
+  <img src="https://github.com/mpHarm88/mpHarm88.github.io/blob/master/img/pancakes.jpg"><br>
 </div>
 
 # Would You Elect Chocolate Pancakes For President
@@ -24,6 +24,11 @@ Below is a chart depicting the total amount of contributions made to either side
 
 We can see a dramatic increase in the amount of value raised starting in 1996. I say 'value' because campaigns can accept more than just monetary support. They can accept goods too, and the FEC defines these as receipts.
 
+<div align="center">
+  <img src="https://github.com/mpHarm88/mpHarm88.github.io/blob/master/img/chart1.png"><br>
+</div>
+
+
 ### Receipt
 "Anything of value (money, goods, services, or property) received by a political committee."
 
@@ -32,5 +37,9 @@ Presidential campaigns are big business, and I believe we will see more and more
 ## Whos Campaign Received the Most Funding
 
 Every presidential race has a winner and loser and below is a list of some of the most funded candidates to date. Some candidates have run multiple times and their amount totaled is an average of each of those times. What's more striking is the amount of money spent on candidates that ended up not becoming President.
+
+<div align="center">
+  <img src="https://github.com/mpHarm88/mpHarm88.github.io/blob/master/img/chart2.png"><br>
+</div>
 
 Now that you've seen the data, what are your thoughts? Will a billion-dollar campaign become a norm in the future? Does a heavily funded campaign equate to a heavily supported candidate? Do candidates with a lot of funding make it harder for less funded candidates to get their message out? These are all questions that need answers as presidential campaign funding begins to reach new all-time highs.
