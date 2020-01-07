@@ -21,13 +21,9 @@ description: Data Science
 # List of links in the navigation bar
 navbar-links:
   About Me: "about_me"
-  Resources:
-    - Learn markdown: "http://www.markdowntutorial.com/"
-  Author's home: ""
+  Projects:
+    - Presidential Campaign Funding: "https://www.mikioharman.com/2019-09-28-funding/"
 
-# Image to show in the navigation bar - image must be a square (width = height)
-# Remove this parameter if you don't want an image in the navbar
-avatar: "/img/Head-icon.jpg"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
@@ -50,8 +46,8 @@ footer-link-col: "#420000"
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
 
-navbar-img: "/img/seward-head.jpg"
-footer-img: "/img/seward-footer.jpg"
+# navbar-img: "/img/seward-head.jpg"
+# footer-img: "/img/seward-footer.jpg"
 # page-img: "/img/bgimage.png"
 
 # --- Footer options --- #
@@ -71,7 +67,7 @@ social-network-links:
   github: 'mpHarm88'
   twitter: 'Harmanmikio'
 #  reddit: yourname
-#  linkedin: daattali
+  linkedin: 'mikio-harman-6342a9195'
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
   snapchat: openarea
