@@ -5,25 +5,26 @@ title: Would You ELect Chocolate Pancakes For President
 subtitle: A look at US presidential campaign funding since 1980
 
 ---
+# Would You Elect Chocolate Pancakes For President
 
 That's the name of one of the 2020 presidential candidates as seen [here](https://www.fec.gov/data/candidates/?q=P00012286&is_active_candidate=true&has_raised_funds=true)
 She or He is just one of the 894 2020 presidential candidates to vote for next year.
 
 But, this isn't a post about chocolate pancakes (sorry to burst your bubble), it's about the amount of money presidential campaigns have raised since 1980. The information is freely available through the FEC (Federal Election Committee). 
 
-How much money were they raising?
+## How much money were they raising?
 
 Below is a chart depicting the total amount of contributions made to either side of the aisle during a given presidential election. I adjusted the amounts for inflation so that I could quantify the impact in today's world.
 
 
 We can see a dramatic increase in the amount of value raised starting in 1996. I say 'value' because campaigns can accept more than just monetary support. They can accept goods too, and the FEC defines these as receipts.
 
-Receipt
+### Receipt
 "Anything of value (money, goods, services, or property) received by a political committee."
 
 Presidential campaigns are big business, and I believe we will see more and more value injected into these campaigns as time goes on. There are more ways to spend your campaign funding now than ever before, due to the rise of popular technologies like the internet, smartphones, and data science. There are more ways to spend their funding, and now these campaigns can better target their supporters and potential supporters.
 
-Whos Campaign Received the Most Funding
+## Whos Campaign Received the Most Funding
 
 Every presidential race has a winner and loser and below is a list of some of the most funded candidates to date. Some candidates have run multiple times and their amount totaled is an average of each of those times. What's more striking is the amount of money spent on candidates that ended up not becoming President.
 
