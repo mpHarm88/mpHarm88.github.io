@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 🧠 Why I joined Lambda 
-subtitle: First post on why I joined Lambda
+subtitle: I spent a lot of time thinking about it
 bigimg: img/macs.jpg
 image: img/group.jpeg
 ---
