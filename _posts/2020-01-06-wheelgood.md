@@ -10,7 +10,7 @@ tags: [tensorflow, keras]
 ---
 
 <div align="center">
-  <img src="img/wheelgood.png"><br>
+  <img src="/img/wheelgood.png"><br>
 </div>
 
 #### Purpose
