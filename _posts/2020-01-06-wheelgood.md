@@ -2,15 +2,15 @@
 layout: post
 title: 👩‍🦼Wheel Good CNN in 30 hours (Hackathon)
 subtitle: Making a Convolutional Neural Network with limited data
-bigimg: img/wheelgood_nav.png
-image: img/wheelgood_nav.png
+bigimg: img/wheelgood.png
+image: img/wheelgood.png
 gh-repo: mpHarm88/wheelgood_cnn
 gh-badge: [star, watch, fork, follow]
 tags: [tensorflow, keras]
 ---
 
 <div align="center">
-  <img src="img/wheelgood_nav.png"><br>
+  <img src="img/wheelgood.png"><br>
 </div>
 
 #### Purpose
