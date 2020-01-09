@@ -1,8 +1,13 @@
 ---
 
 layout: post
-title: Lambda
+title: Lambda 
 subtitle: Making a Convolutional Neural Network with limited data
+bigimg: img/wheelgood.png
+gh-repo: mpHarm88/wheelgood_cnn
+gh-badge: [star, watch, fork, follow]
+tags: [pandas, seaborn, matplotlib]
+
 
 
 ---
