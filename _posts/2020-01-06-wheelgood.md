@@ -2,7 +2,7 @@
 layout: post
 title: 👩‍🦼Wheel Good CNN in 30 hours (Hackathon)
 subtitle: Making a Convolutional Neural Network with limited data
-image: img/wheelgood.png
+image: img/wheelGood_horz.png
 gh-repo: mpHarm88/wheelgood_cnn
 gh-badge: [star, watch, fork, follow]
 tags: [tensorflow, keras]
@@ -14,7 +14,7 @@ The Wheelgood Convolutional Neural Network (CNN) purpose was to identify storefr
 A user could theoretically type in an address as they would in any maps interface, and the corresponding street view image(s) would be fed into the CNN to determine if the route and building front were accessible. If the recommended route were deemed inaccessible by the CNN the model would direct the user to an alternate route that the model determined to be accessible and provide a confidence rating of its prediction. Using computer vision, the model would identify small pieces of each image, such as edges, corners, curves, and so on until it could recognize an entire accessible or inaccessible feature. 
 
 <div align="center">
-  <img src="/img/wheelgood.png"><br>
+  <img src="/img/wheelgood_horz.png"><br>
 </div>
 
 #### Process
