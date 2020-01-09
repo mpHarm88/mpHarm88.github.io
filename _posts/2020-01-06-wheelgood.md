@@ -8,14 +8,14 @@ gh-badge: [star, watch, fork, follow]
 tags: [tensorflow, keras]
 ---
 
-<div align="center">
-  <img src="/img/wheelgood.png"><br>
-</div>
-
 #### Purpose
 The Wheelgood Convolutional Neural Network (CNN) purpose was to identify storefronts and routes in cities and determine how accessible the building or route was to limited mobility users (wheelchair, walkers, canes, etc.). The model would also issue a confidence rating with each prediction on how sure it was that the building could be accessed.
 
 A user could theoretically type in an address as they would in any maps interface, and the corresponding street view image(s) would be fed into the CNN to determine if the route and building front were accessible. If the recommended route were deemed inaccessible by the CNN the model would direct the user to an alternate route that the model determined to be accessible and provide a confidence rating of its prediction. Using computer vision, the model would identify small pieces of each image, such as edges, corners, curves, and so on until it could recognize an entire accessible or inaccessible feature. 
+
+<div align="center">
+  <img src="/img/wheelgood.png"><br>
+</div>
 
 #### Process
 Initial tests of the model started by trying to identify curb cuts found in street view images. By manually gathering images from street view and reverse image search, we were able to collect 111 images depicting what we deemed were accessible curb cuts and 129 images that we determined to be inaccessible curb cuts. Moderns CNN's train, validate, and test on thousands of pictures, and our training and test sets became the bottleneck of our research while trying to complete out intended purpose in the time allotted (30 hours). 
