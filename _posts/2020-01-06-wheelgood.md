@@ -2,7 +2,6 @@
 layout: post
 title: 👩‍🦼Wheel Good CNN in 30 hours (Hackathon)
 subtitle: Making a Convolutional Neural Network with limited data
-share-img: img/stepfree.jpg
 bigimg: img/stepfree.jpg
 image: img/wheelGood_horz.png
 gh-repo: mpHarm88/wheelgood_cnn
@@ -20,7 +19,7 @@ A user could theoretically type in an address as they would in any maps interfac
 </div>
 
 #### Process
-Initial tests of the model started by trying to identify curb cuts found in street view images. By manually gathering images from street view and reverse image search, we were able to collect 111 images depicting what we deemed were accessible curb cuts and 129 images that we determined to be inaccessible curb cuts. Moderns CNN's train, validate, and test on thousands of pictures, and our training and test sets became the bottleneck of our research while trying to complete out intended purpose in the time allotted (30 hours). 
+Initial tests of the model used this [tutorial](https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html) by [Francois Chollet](https://twitter.com/fchollet) and started by trying to identify curb cuts found in street view images. By manually gathering images from street view and reverse image search, we were able to collect 111 images depicting what we deemed were accessible curb cuts and 129 images that we determined to be inaccessible curb cuts. Moderns CNN's train, validate, and test on thousands of pictures, and our training and test sets became the bottleneck of our research while trying to complete out intended purpose in the time allotted (30 hours). 
 
 To compensate for our lack of data, we applied data augmentation to the limited amount of photos. Data augmentation allows us to adjust each image slightly by rotating, zooming in, stretching, and flipping each image multiple times to artificially create more pictures and never letting our model to see the same image twice. After data augmentation, our entire image set increased to just under 2500 images.
 
