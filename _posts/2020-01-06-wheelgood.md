@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: Lambda Winter Hackathon: Wheelgood CNN
+title: Lambda
 subtitle: Making a Convolutional Neural Network with limited data
 
 
