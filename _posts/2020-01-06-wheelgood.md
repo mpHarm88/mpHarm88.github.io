@@ -2,7 +2,7 @@
 layout: post
 title: 👩‍🦼Wheel Good CNN in 30 hours (Hackathon)
 subtitle: Making a Convolutional Neural Network with limited data
-share-img: "https://github.com/mpHarm88/mpHarm88.github.io/blob/master/img/stepfree.jpg"
+share-img: img/stepfree.jpg
 bigimg: img/stepfree.jpg
 image: img/wheelGood_horz.png
 gh-repo: mpHarm88/wheelgood_cnn
