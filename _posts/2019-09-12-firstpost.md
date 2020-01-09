@@ -1,6 +1,6 @@
 ---
 layout: post
-title:🧠 Why I joined Lambda 
+title: 🧠 Why I joined Lambda 
 subtitle: Making a Convolutional Neural Network with limited data
 bigimg: img/macs.jpg
 image: img/group.jpeg
