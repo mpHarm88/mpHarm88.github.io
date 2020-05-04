@@ -17,8 +17,11 @@ I recently had the pleasure of leading a team of talented engineers to build a S
 Sometimes it's nice to have an unbiased opinion that is not influenced by any outside sources.  DeepTunes only recommends songs to the users based on the audio features of the song. These features are taken from Spotify, and each song in the library has the following attributes associated with it:
 
 Duration MS: The duration of the track in milliseconds.
+
 Key: The estimated overall key of the track. Integers map to pitches using standard Pitch Class notation.
+
 Mode: Mode indicates the modality (major or minor) of a track, the type of scale from which its melodic content is derived. Major is represented by 1 and minor is 0.
+
 Time Signature: An estimated overall time signature of a track. The time signature (meter) is a notational convention to specify how many beats are in each bar (or measure).
 Acousticness: A confidence measure from 0.0 to 1.0 of whether the track is acoustic. 1.0 represents high confidence the track is acoustic.
 Danceability: Danceability describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable.
