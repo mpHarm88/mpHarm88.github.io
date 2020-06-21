@@ -10,6 +10,8 @@ tags: [pandas, scikit-learn, rapidfuzz, fastapi, aws, heroku, sqlalchemy, postgr
 
 ---
 
+<center> <H1> 👉🏼[Click Here to try Streetsmarts](https://www.streetsmarts.online/)👈🏼 </H1> </center>
+
 <p align="center">
   <img width="700" height="350" src="https://media.giphy.com/media/Jq7z1cgoN3fDrB7oEd/giphy.gif">
 </p>
@@ -83,6 +85,9 @@ Setting up the database on AWS required us to insert the data in a local SQLite 
 
 To make the code more easily read, we implemented a class instance for every prediction made. We also used SQLAlchemy to make every database column an object that would allow us to write our queries entirely in Python. Using SQLAlchemy eliminated the need to use Psycopg2. These improvements allowed up to return all necessary values in a single route.
 
+Find our documentation [here](http://data.streetsmarts.online/docs#/)
+
+#### /predict route
 ```python
 from fastapi import FastAPI, Depends
 from modules import Pred
@@ -102,6 +107,23 @@ async def test_class(pred: Pred = Depends(Pred)):
             "list_of_imgs": pred.fetch_img(),
             "maintenance_cost_5yr": pred.maint_5yr
             }
+```
+
+#### Example Output
+```python
+{
+  "car_price_prediction": 6966.58,
+  "fuel_cost": 16071.43,
+  "maintenance_cost": 1000,
+  "five_year_cost_to_own": 28038.01,
+  "co2_five_year_kgs": 47608.93,
+  "number_of_trees_to_offset": 437,
+  "trees_burned_emoji": "🔥🔥🔥🔥🌲🌲🌲🌲🌲🌲",
+  "list_of_imgs": [
+    "https://images.craigslist.org/00E0E_av8sHn7jwty_600x450.jpg"
+  ],
+  "maintenance_cost_5yr": 5000
+}
 ```
 
 We also tested our API using PyTest and the documentation examples provided by Fast API that is included by default. 
