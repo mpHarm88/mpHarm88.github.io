@@ -155,3 +155,5 @@ The five-year cost to own predictor and the used car predictor has some limitati
 
 - Due to a limited amount of time and resources, we created a model that predicted the listing price rather than purchase price. Finding data on purchase price proved very difficult to find. 
 We had to develop a model that only used three features (Make, Model, and Year). With more time, we would like to use additional descriptive features that contribute to the predicted cost of a vehicle. 
+- The model cannot take into account appreciation due to a car being a collector's item.
+- Exotic cars do not give accurate predictions due to the training data having a very sparse amount of samples. 
