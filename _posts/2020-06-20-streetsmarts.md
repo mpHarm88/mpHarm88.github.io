@@ -142,14 +142,16 @@ The five-year cost to own predictor and the used car predictor has some limitati
 - Miles Driven Per Year(Constant) - We used the same value the EPA uses on car labels: 15,000 miles per year
 
 <p align="center">
-  <img width="500" height="400" src="https://imgur.com/O38y24S.png">
+  <img width="500" height="400" src="https://imgur.com/y6b4jrz.png">
 </p>
+<center><p>Example car label seen on new cars, notice the assumptions made at the bottom.</p></center>
 
 ### Limitations and Improvements
 - Rapid Fuzz - Due to Rapid Fuzz returning the shortest Levenshtein Distance between the model inputted and the closest encoded value, there are times when the calculated value is not wrong. What this means is that the model will input the incorrect car model into the predictive model. As seen below with the Alfa Romero Giulia and a Mercedez image being returned.
 <p align="center">
   <img width="700" height="400" src="https://imgur.com/NLVD8PT.png">
 </p>
+<center><p>A Rapid Fuzz missclassification.</p></center>
 
 - Due to a limited amount of time and resources, we created a model that predicted the listing price rather than purchase price. Finding data on purchase price proved very difficult to find. 
 We had to develop a model that only used three features (Make, Model, and Year). With more time, we would like to use additional descriptive features that contribute to the predicted cost of a vehicle. 
