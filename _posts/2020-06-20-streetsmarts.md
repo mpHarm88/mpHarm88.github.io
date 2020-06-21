@@ -80,6 +80,26 @@ Setting up the database on AWS required us to insert the data in a local SQLite 
 
 [Rapid Fuzz](https://github.com/maxbachmann/rapidfuzz) uses the Levenshtein Distance to match different categorical values based on how many edits it takes to make the first value equal the second. Rapid Fuzz made it possible to find an encoding for any model delivered based on which encoding was the shortest distance away from the inputted model. 
 
-To make the code more easily read, we implemented a class instance for every prediction made. We also used SQLAlchemy to make every database column an object that would allow us to write our queries entirely in Python. Using SQLAlchemy eliminated the need to use Psycopg2.
+To make the code more easily read, we implemented a class instance for every prediction made. We also used SQLAlchemy to make every database column an object that would allow us to write our queries entirely in Python. Using SQLAlchemy eliminated the need to use Psycopg2. These improvements allowed up to return all necessary values in a single route.
+
+```python
+from fastapi import FastAPI, Depends
+from modules import Pred
+
+app = FastAPI()
+
+@app.post("/predict")
+async def test_class(pred: Pred = Depends(Pred)):
+    return {"car_price_prediction": round(pred.get_car_pred(), 2),
+            "fuel_cost": round(pred.get_fuel_cost(), 2),
+            "maintenance_cost": pred.maint,
+            "five_year_cost_to_own": round(pred.cto(), 2),
+            "co2_five_year_kgs": round(pred.co2_num_years(), 2), 
+            "number_of_trees_to_offset": round(pred.co2_offset(), 0),
+            "trees_burned_emoji": pred.emoji(),
+            "list_of_imgs": pred.fetch_img(),
+            "maintenance_cost_5yr": pred.maint_5yr
+            }
+```
 
 We also tested our API using PyTest and the documentation examples provided by Fast API that is included by default. 
