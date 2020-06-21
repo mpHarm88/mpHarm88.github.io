@@ -4,7 +4,8 @@ layout: post
 title: 🚙Streetsmarts
 subtitle: Over the last 2 month, my team and I created a web app that shows user how much Carbon Dioxide their next vehicle would emit along with the 5 year cost to own.
 bigimg: img/streetsmarts.jpg
-image:
+gh-repo: mpHarm88/street-smarts-ds
+gh-badge: [star, watch, fork, follow]
 tags: [pandas, scikit-learn, rapidfuzz, fastapi, aws, heroku, sqlalchemy, postgres]
 
 ---
