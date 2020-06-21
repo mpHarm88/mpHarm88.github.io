@@ -10,7 +10,7 @@ tags: [pandas, scikit-learn, rapidfuzz, fastapi, aws, heroku, sqlalchemy, postgr
 
 ---
 
-<center> <H1> 👉🏼[Click Here to try Streetsmarts](https://www.streetsmarts.online/)👈🏼 </H1> </center>
+## 👉🏼[Click Here to try Streetsmarts](https://www.streetsmarts.online/)👈
 
 <p align="center">
   <img width="700" height="350" src="https://media.giphy.com/media/Jq7z1cgoN3fDrB7oEd/giphy.gif">
@@ -110,7 +110,7 @@ async def test_class(pred: Pred = Depends(Pred)):
 ```
 
 #### Example Output
-```python
+```javascript
 {
   "car_price_prediction": 6966.58,
   "fuel_cost": 16071.43,
