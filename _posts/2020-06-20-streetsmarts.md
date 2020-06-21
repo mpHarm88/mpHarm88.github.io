@@ -91,7 +91,8 @@ app = FastAPI()
 
 @app.post("/predict")
 async def test_class(pred: Pred = Depends(Pred)):
-    return {"car_price_prediction": round(pred.get_car_pred(), 2),
+    return {
+            "car_price_prediction": round(pred.get_car_pred(), 2),
             "fuel_cost": round(pred.get_fuel_cost(), 2),
             "maintenance_cost": pred.maint,
             "five_year_cost_to_own": round(pred.cto(), 2),
@@ -104,3 +105,28 @@ async def test_class(pred: Pred = Depends(Pred)):
 ```
 
 We also tested our API using PyTest and the documentation examples provided by Fast API that is included by default. 
+
+<center> <H1>Improvements, Assumptions, & Limitations</H1> </center>
+
+The five-year cost to own predictor and the used car predictor has some limitations along with some commonly made assumptions. Only having two months to build the API, source data, and create a machine learning solution gave us enough time to prove a proof of concept. The assumptions we used are similar to what the EPA makes when they calculate the same values on car labels.  
+
+### Assumptions
+
+- Maintenance Cost (Constant) - We sourced the national average for maintenance cost and rounded it to $1000
+
+- Gas Cost (Constant) - This value uses the national average for gas price and round the amount to $3.00
+
+- Miles Driven Per Year(Constant) - We used the same value the EPA uses on car labels: 15,000 miles per year
+
+<p align="center">
+  <img width="500" height="400" src="https://imgur.com/O38y24S.png">
+</p>
+
+### Limitations and Improvements
+- Rapid Fuzz - Due to Rapid Fuzz returning the shortest Levenshtein Distance between the model inputted and the closest encoded value, there are times when the calculated value is not wrong. What this means is that the model will input the incorrect car model into the predictive model. As seen below with the Alfa Romero Giulia and a Mercedez image being returned.
+<p align="center">
+  <img width="700" height="400" src="https://imgur.com/NLVD8PT.png">
+</p>
+
+- Due to a limited amount of time and resources, we created a model that predicted the listing price rather than purchase price. Finding data on purchase price proved very difficult to find. 
+We had to develop a model that only used three features (Make, Model, and Year). With more time, we would like to use additional descriptive features that contribute to the predicted cost of a vehicle. 
