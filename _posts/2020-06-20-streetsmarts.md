@@ -10,7 +10,7 @@ tags: [pandas, scikit-learn, rapidfuzz, fastapi, aws, heroku, sqlalchemy, postgr
 
 ---
 
-## 👉🏼[Click Here to try Streetsmarts](https://www.streetsmarts.online/)👈
+<center><H1><a href="https://www.streetsmarts.online/"> 👉🏼[Click Here to try Streetsmarts]👈🏼</a></H1></center>
 
 <p align="center">
   <img width="700" height="350" src="https://media.giphy.com/media/Jq7z1cgoN3fDrB7oEd/giphy.gif">
@@ -108,6 +108,7 @@ async def test_class(pred: Pred = Depends(Pred)):
             "maintenance_cost_5yr": pred.maint_5yr
             }
 ```
+
 
 #### Example Output
 ```javascript
