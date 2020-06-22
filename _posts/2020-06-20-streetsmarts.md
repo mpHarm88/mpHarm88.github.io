@@ -130,14 +130,12 @@ async def test_class(pred: Pred = Depends(Pred)):
 ```
 #### Example Output Descriptions
 - **car_price_predictions** - The prediction from our model.
-
 - **fuel_cost** - The fuel cost over five years.
 <p align="center">
   <img width="400" height="50" src="https://imgur.com/RXaRpUd.png">
 </p>
 
 - **maintenance_cost** - The average maintenance cost per year.
-
 - **five_year_cost_to_own** - The estimated five-year cost to own the vehicle
 <p align="center">
   <img width="625" height="50" src="https://imgur.com/oIlFwBa.png">
@@ -154,9 +152,7 @@ async def test_class(pred: Pred = Depends(Pred)):
 </p>
 
 - **trees_burned_emoji** - A pictograph visualizing the "Number of Trees to Offset" statistic. 
-
 - **list_of_imgs** - The image to use for the selected vehicle.
-
 - **maintenance_cost_5yr** - The average five-year maintenance cost.
 
 We also tested our API using PyTest and the documentation examples provided by Fast API that is included by default. 
