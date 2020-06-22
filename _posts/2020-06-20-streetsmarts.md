@@ -23,13 +23,10 @@ Over the last two months, I have been working on a cross-functional team consist
 Lambda School is 100% live and online and uses interactive technology to teach people the tech skills they need to launch a new career in just 9 months. I currently attend the Data Science program and am one of the Data Scientist/Data Engineers on the project.
 
 <center> <H1>Team</H1> </center>
-Our team consisted of:
-- 3 Data Scientists/Data Engineers
-- 3 Frontend Web Developers
-- 3 Backend Developers
-- 1 UX Designer
-- 1 Team Lead
-- 1 Stakeholder
+
+<p align="center">
+  <img width="500" height="400" src="https://imgur.com/fNavWI0.png">
+</p>
 
 <center> <H1>Product Vision</H1> </center>
 Our Stakeholder wanted us to make a web app similar to a Cars.com but also offer a feature not found on related car purchasing sites. Our Stakeholder gave us a lot of flexibility to pursue different feature ideas. Initially, we thought we were going to let a user input a VIN, and we would look up their vehicle and return to them the data associated with it similar to a CarFax. Looking up cars by VIN proved harder than expected since most VIN APIs require payment, and we didn't have the budget to purchase access to it. 
