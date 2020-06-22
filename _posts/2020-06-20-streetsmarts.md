@@ -135,6 +135,7 @@ async def test_class(pred: Pred = Depends(Pred)):
 <p align="center">
   <img width="400" height="50" src="https://imgur.com/RXaRpUd.png">
 </p>
+
 - **maintenance_cost** - The average maintenance cost per year.
 
 - **five_year_cost_to_own** - The estimated five-year cost to own the vehicle
