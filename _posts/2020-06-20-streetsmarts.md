@@ -20,7 +20,7 @@ tags: [pandas, scikit-learn, rapidfuzz, fastapi, aws, heroku, sqlalchemy, postgr
 
 Over the last two months, I have been working on a cross-functional team consisting of Web Developers, Data Scientists, Data Engineers, Stakeholders, and a Team Lead. Our team had no prior context to what we were building, and the project was a greenfield(developed from scratch). This gauntlet is called Labs and is required of all students that attend Lambda School. 
 
-Lambda School is 100% live and online and uses interactive technology to teach people the tech skills they need to launch a new career in just 9 months. I currently attend the Data Science program and am one of the Data Scientist/Data Engineers on the project.
+[Lambda School](https://lambdaschool.com/) is 100% live and online and uses interactive technology to teach people the tech skills they need to launch a new career in just 9 months. I currently attend the Data Science program and am one of the Data Scientist/Data Engineers on the project.
 
 <center> <H1>Team</H1> </center>
 
