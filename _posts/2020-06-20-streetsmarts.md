@@ -163,7 +163,6 @@ The five-year cost to own predictor and the used car predictor have some limitat
 <center><p>A Rapid Fuzz missclassification.</p></center>
 
 - Rapid Fuzz - Due to Rapid Fuzz returning the shortest Levenshtein Distance between the model inputted and the closest encoded value, there are times when the calculated value is wrong. What this means is that the model will input the incorrect car model into the predictive model. As seen above with the Alfa Romero Giulia and a Mercedez image being returned.
-
 - Due to a limited amount of time and resources, we created a model that predicted the listing price rather than purchase price. Finding data on purchase price proved very difficult to find. 
 - We had to develop a model that only used three features (Make, Model, and Year). With more time, we would like to use additional descriptive features that would positvely contribute to the predicted cost of a vehicle. 
 - The model cannot take into account appreciation due to a car being a collector's item.
