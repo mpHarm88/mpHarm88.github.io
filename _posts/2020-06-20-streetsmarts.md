@@ -25,7 +25,7 @@ Lambda School is 100% live and online and uses interactive technology to teach p
 <center> <H1>Team</H1> </center>
 
 <p align="center">
-  <img width="500" height="400" src="https://imgur.com/fNavWI0.png">
+  <img width="1886" height="1544" src="https://imgur.com/tZLhthC.png">
 </p>
 
 <center> <H1>Product Vision</H1> </center>
