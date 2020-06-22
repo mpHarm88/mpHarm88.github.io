@@ -88,7 +88,7 @@ Setting up the database on AWS required us to insert the data in a local SQLite 
 
 [Rapid Fuzz](https://github.com/maxbachmann/rapidfuzz) uses the Levenshtein Distance to match different categorical values based on how many edits it takes to make the first value equal the second. Rapid Fuzz made it possible to find an encoding for any model delivered based on which encoding was the shortest distance away from the inputted model. 
 
-To make the code more easily read, we implemented a class instance for every prediction made. We also used SQLAlchemy to make every database column an object that would allow us to write our queries entirely in Python. Using SQLAlchemy eliminated the need to use Psycopg2. These improvements allowed up to return all necessary values in a single route.
+To make the code more easily read, we implemented a class instance for every prediction made. We also used SQLAlchemy to make every database column an object that would allow us to write our queries entirely in Python. Using SQLAlchemy eliminated the need to use Psycopg2, which was also crashing our API every weekend. These improvements allowed up to return all necessary values in a single route.
 
 Find our documentation [here](http://data.streetsmarts.online/docs#/)
 
