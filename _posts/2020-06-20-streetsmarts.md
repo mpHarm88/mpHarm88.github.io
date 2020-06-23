@@ -69,7 +69,7 @@ The mean baseline allows us to gauge how useful further iterations of our model 
 On average, our model's predictions can vary by $2483.00. The final iteration of the model ended being 72.07% better than the baseline model. Below is a table showing the scores of the previous models implemented.
 
 <p align="center">
-  <img width="700" height="250" src="https://imgur.com/85txCjv.png">
+  <img width="700" height="250" src="https://imgur.com/pBKVMfe.png">
 </p>
 
 
