@@ -174,7 +174,7 @@ The five-year cost to own predictor and the used car predictor have some limitat
 
 ### Limitations and Improvements
 <p align="center">
-  <img width="700" height="400" src="https://imgur.com/NLVD8PT.png">
+  <img width="700" height="400" src="https://imgur.com/GAheuq5.png">
 </p>
 <center><p><em>A Rapid Fuzz missclassification.</em></p></center>
 
