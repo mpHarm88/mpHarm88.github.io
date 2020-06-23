@@ -13,7 +13,7 @@ tags: [pandas, scikit-learn, rapidfuzz, fastapi, aws, heroku, sqlalchemy, postgr
 <center><H3><a href="https://www.streetsmarts.online/"> 👉🏼Click Here to try Streetsmarts👈🏼</a></H3></center>
 
 <p align="center">
-  <img width="700" height="350" src="https://media.giphy.com/media/Jq7z1cgoN3fDrB7oEd/giphy.gif">
+  <img width="700" height="350" src="https://media.giphy.com/media/fw8hWPw7M7jsvtq1QN/giphy.gif">
 </p>
 
 <center> <H1>Introduction</H1> </center>
