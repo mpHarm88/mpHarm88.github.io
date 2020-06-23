@@ -146,7 +146,7 @@ async def test_class(pred: Pred = Depends(Pred)):
   <img width="450" height="50" src="https://imgur.com/3uEccJZ.png">
 </p>
 
-- **number_of_trees_to_offset** - How many trees it would take to offset the "CO2 Five Year kgs".
+- **number_of_trees_to_offset** - How many trees it would take to offset the "CO2 Five Year kgs". Where a single tree can absorb 21.77kg of CO2 per year.
 <p align="center">
   <img width="350" height="50" src="https://imgur.com/CIbckf6.png">
 </p>
