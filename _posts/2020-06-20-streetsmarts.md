@@ -51,8 +51,11 @@ While the EPA Dataset was great for querying vehicles approved for use in the US
 
 <center> <H1>Model</H1> </center>
 Before training our model, we had to decide which features could be used to train the model on. To find that out, we talked to Frontend to see how many features were feasible to implement in our short timeframe. After our conversations, we decided to use only three features:
+
 - **Make**
+
 - **Model**
+
 - **Year**
 
 We decided to only use 3 features because we didn't want to overwhelm our users with too many filters like many other car websites have. We wanted users to quickly input their vehicle and get their results faster than they could on competing sites. Using three features, we were able to create a model that beat our model baseline.
