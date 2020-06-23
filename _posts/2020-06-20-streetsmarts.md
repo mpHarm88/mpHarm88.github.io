@@ -64,7 +64,7 @@ We decided to only use 3 features because we didn't want to overwhelm our users 
 
 The mean baseline allows us to gauge how useful further iterations of our model will be by comparing the new error against the mean baseline. Below is a graph showing the negative mean absolute error of our models during repeated iterations. As the negative mean absolute error gets closer to zero, the better our model was performing. Our final implemented model had a mean absolute error of $2483.00. 
 
-<iframe width="700" height="600" frameborder="0" scrolling="no" src="//plotly.com/~mharman/1.embed" align="middle"></iframe>
+<iframe width="800" height="700" frameborder="0" scrolling="no" src="//plotly.com/~mharman/1.embed" align="middle"></iframe>
 
 On average, our model's predictions can vary by $2483.00. The final iteration of the model ended being 72.07% better than the baseline model. Below is a table showing the scores of the previous models implemented.
 
