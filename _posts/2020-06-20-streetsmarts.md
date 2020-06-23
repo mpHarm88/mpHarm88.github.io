@@ -38,7 +38,7 @@ Our team spent a lot of time looking at the already well-defined industry for se
 <p align="center">
   <img width="500" height="400" src="https://imgur.com/y6b4jrz.png">
 </p>
-<center><p>Example car label seen on new cars, notice the assumptions made at the bottom.</p></center>
+<center><p><em>Example car label seen on new cars, notice the assumptions made at the bottom.</em></p></center>
 
 <center> <H1>Data</H1> </center>
 One of the cornerstones of the success of our project was dependant on finding the appropriate dataset. We needed a dataset that included as many unique car models as possible along with their associated features (MPG, Cylinders, Cost, CO2, etc.). The data had to come from a reliable source that was well respected, so there was no question on its integrity. These standards proved harder to achieve than we initially thought. We ended up having to use two different datasets to serve two different purposes.
@@ -51,9 +51,9 @@ While the EPA Dataset was great for querying vehicles approved for use in the US
 
 <center> <H1>Model</H1> </center>
 Before training our model, we had to decide which features could be used to train the model on. To find that out, we talked to Frontend to see how many features were feasible to implement in our short timeframe. After our conversations, we decided to use only three features:
-- Make
-- Model
-- Year
+- **Make**
+- **Model**
+- **Year**
 
 We decided to only use 3 features because we didn't want to overwhelm our users with too many filters like many other car websites have. We wanted users to quickly input their vehicle and get their results faster than they could on competing sites. Using three features, we were able to create a model that beat our model baseline.
 
@@ -163,17 +163,17 @@ The five-year cost to own predictor and the used car predictor have some limitat
 
 ### Assumptions
 
-- Maintenance Cost (Constant) - We sourced the national average for maintenance cost and rounded it to $1000
+- **Maintenance Cost (Constant)** - We sourced the national average for maintenance cost and rounded it to $1000
 
-- Gas Cost (Constant) - This value uses the national average for gas price and round the amount to $3.00
+- **Gas Cost (Constant)** - This value uses the national average for gas price and round the amount to $3.00
 
-- Miles Driven Per Year(Constant) - We used the same value the EPA uses on car labels: 15,000 miles per year
+- **Miles Driven Per Year(Constant)** - We used the same value the EPA uses on car labels: 15,000 miles per year
 
 ### Limitations and Improvements
 <p align="center">
   <img width="700" height="400" src="https://imgur.com/NLVD8PT.png">
 </p>
-<center><p>A Rapid Fuzz missclassification.</p></center>
+<center><p><em>A Rapid Fuzz missclassification.</em></p></center>
 
 - Rapid Fuzz - Due to Rapid Fuzz returning the shortest Levenshtein Distance between the model inputted and the closest encoded value, there are times when the calculated value is wrong. What this means is that the model will input the incorrect car model into the predictive model. As seen above with the Alfa Romero Giulia and a Mercedez image being returned.
 - Due to a limited amount of time and resources, we created a model that predicted the listing price rather than purchase price. Finding data on purchase price proved very difficult to find. 
