@@ -2,7 +2,7 @@
 
 layout: post
 title: 🚙Streetsmarts
-subtitle: Over the last 2 month, my team and I created a web app that shows a user how much Carbon Dioxide their next vehicle would emit along with the 5 year cost to own.
+subtitle: Over the last 2 months, my team and I created a web app that shows how much Carbon Dioxide their next vehicle would emit along with the five-year cost to own.
 bigimg: img/streetsmarts.jpg
 gh-repo: mpHarm88/street-smarts-ds
 gh-badge: [star, watch, fork, follow]
