@@ -9,7 +9,7 @@ tags: [pandas, scikit-learn]
 
 ---
 
-<center><H3>Find the Deep Tunes landing page [here](https://jdmtias.github.io/marketing/).</H3></center>
+<center><H3><a href="https://jdmtias.github.io/marketing/"> 👉🏼Click Here to try Deep Tunes👈🏼</a></H3></center>
 
 <center><H1>Demo.</H1></center>
 
