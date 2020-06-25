@@ -9,7 +9,11 @@ tags: [pandas, scikit-learn]
 
 ---
 
-Find the Deep Tunes landing page [here](https://jdmtias.github.io/marketing/).
+<center><H3>Find the Deep Tunes landing page [here](https://jdmtias.github.io/marketing/).</H3></center>
+
+<center><H1>Demo.</H1></center>
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/5P3oDO8v0Sc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
 
 I recently had the pleasure of leading a team of talented engineers to build a Song Suggester from beginning to end in just four short days. The app would mimic the same functionality that is experienced on Spotify when your recommended songs based on your prior listening history. While our app would recommend songs, it would not base it on the users prior listening history but instead on a single inputted song from the user. We called it DeepTunes.
