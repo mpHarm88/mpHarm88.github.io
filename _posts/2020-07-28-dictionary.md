@@ -17,7 +17,7 @@ Put merely, dictionaries are key-value pairs. Dictionaries are created by using 
 ```
 
 - Keys can be any string or number as long as it's unique to the keys of the dictionary.
-- Values can be anything you want including [Integers]("https://docs.python.org/3.8/library/functions.html#int"), [Floats]("https://docs.python.org/3.8/library/functions.html#float"), [Strings](https://docs.python.org/3.8/library/functions.html#func-str), [Lists]("https://docs.python.org/3/library/functions.html#func-list"), [Dictionaries]("https://docs.python.org/3/tutorial/datastructures.html#dictionaries"), [Variables]("https://docs.python.org/3/library/functions.html#vars")
+- Values can be anything you want including [Integers](https://docs.python.org/3.8/library/functions.html#int), [Floats](https://docs.python.org/3.8/library/functions.html#float), [Strings](https://docs.python.org/3.8/library/functions.html#func-str), [Lists](https://docs.python.org/3/library/functions.html#func-list), [Dictionaries](https://docs.python.org/3/tutorial/datastructures.html#dictionaries), [Variables](https://docs.python.org/3/library/functions.html#vars)
 
 Let's look at an example.
 
@@ -68,9 +68,9 @@ print(val3)
 
 2.22
 ```
-When we look at ```val``` we see that it is of type [list()]("https://docs.python.org/3/tutorial/datastructures.html#more-on-lists") and it's not until we index into the list using zero-based list indexing to get our desired value. We do this using ```val2``` and see that it is of type [float()]("https://docs.python.org/3/library/functions.html#float") and is also the correct value.
+When we look at ```val``` we see that it is of type [list()](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists) and it's not until we index into the list using zero-based list indexing to get our desired value. We do this using ```val2``` and see that it is of type [float()](https://docs.python.org/3/library/functions.html#float) and is also the correct value.
 
-- If you need a refresher on Python lists, take a look at my short blog about them [here]("https://mikioharman.com/2020-07-27-lists/").
+- If you need a refresher on Python lists, take a look at my short blog about them [here](https://mikioharman.com/2020-07-27-lists/).
 
 What if we wanted to look up the second key-value pair of the 4th key of d? We would only have to do the following:
 
@@ -94,7 +94,7 @@ print(val6)
 3 fives
 ```
 ### Benefits of using the type function
-Using [type()]("https://docs.python.org/3/library/functions.html#type") is a great way of building your dictionary calls when you have multiple nested datatypes within one another. I often use ```type()``` to locate where I'm at when I am inside a giant JSON object that was returned from an API. This helps me write my functions quicker and more concisely.
+Using [type()](https://docs.python.org/3/library/functions.html#type) is a great way of building your dictionary calls when you have multiple nested datatypes within one another. I often use ```type()``` to locate where I'm at when I am inside a giant JSON object that was returned from an API. This helps me write my functions quicker and more concisely.
 
 ## Common Dictionary Methods
 Before we get into some more interesting parts of a dictionary, let's look over some of the methods associated with dictionaries.
@@ -148,7 +148,7 @@ two
 {}
 ```
 ## Dictionary Comprehension
-Just like list comprehension, dictionary comprehension transforms one dictionary into another dictionary. We will use the builtin function [chr()]("https://docs.python.org/3/library/functions.html#chr") to create our keys and [range()]("https://docs.python.org/3/library/functions.html#func-range") to create a specified number of elements and associated values. Let's take a look at some simple examples.
+Just like list comprehension, dictionary comprehension transforms one dictionary into another dictionary. We will use the builtin function [chr()](https://docs.python.org/3/library/functions.html#chr) to create our keys and [range()](https://docs.python.org/3/library/functions.html#func-range) to create a specified number of elements and associated values. Let's take a look at some simple examples.
 
 ```python
 # Create a dictionary using chr() and range()
@@ -223,4 +223,4 @@ Wow! The dictionary comprehension wall time when compared to the for-loop, is ~4
 Now that you have an understanding of how dictionaries work in Python, can you think of other ways to utilize them? What are some real world applications that could use a dictionary? This is just the beginning of using dictionaries in Python, and like anything, only gets better with practice, so get out there and use some dictionaries!
 Feel free to leave feedback or address any errors I've made. I'm always looking to improve and value your feedback!
 
-Find the code for this blog [here]("https://github.com/mpHarm88/projects/blob/master/dictionaries/dictionary.ipynb")!
+Find the code for this blog [here](https://github.com/mpHarm88/projects/blob/master/dictionaries/dictionary.ipynb)!
