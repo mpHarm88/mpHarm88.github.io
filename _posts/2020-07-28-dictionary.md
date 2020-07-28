@@ -222,4 +222,5 @@ Wow! The dictionary comprehension wall time when compared to the for-loop, is ~4
 ### You did it!
 Now that you have an understanding of how dictionaries work in Python, can you think of other ways to utilize them? What are some real world applications that could use a dictionary? This is just the beginning of using dictionaries in Python, and like anything, only gets better with practice, so get out there and use some dictionaries!
 Feel free to leave feedback or address any errors I've made. I'm always looking to improve and value your feedback!
+
 Find the code for this blog [here]("https://github.com/mpHarm88/projects/blob/master/dictionaries/dictionary.ipynb")!
