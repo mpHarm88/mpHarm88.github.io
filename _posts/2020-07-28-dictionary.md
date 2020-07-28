@@ -70,7 +70,7 @@ print(val3)
 ```
 When we look at ```val``` we see that it is of type [list()]("https://docs.python.org/3/tutorial/datastructures.html#more-on-lists") and it's not until we index into the list using zero-based list indexing to get our desired value. We do this using ```val2``` and see that it is of type [float()]("https://docs.python.org/3/library/functions.html#float") and is also the correct value.
 
-- If you need a refresher on Python lists, take a look at my short blog about them [here]("https://www.mikioharman.com/2020-07-27-lists/").
+- If you need a refresher on Python lists, take a look at my short blog about them [here]("https://mikioharman.com/2020-07-27-lists/").
 
 What if we wanted to look up the second key-value pair of the 4th key of d? We would only have to do the following:
 
