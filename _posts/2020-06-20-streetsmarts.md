@@ -9,16 +9,13 @@ gh-badge: [star, watch, fork, follow]
 tags: [pandas, scikit-learn, rapidfuzz, fastapi, aws, heroku, sqlalchemy, postgres]
 
 ---
+Over the last two months, I have been working on a cross-functional team consisting of Web Developers, Data Scientists, Data Engineers, Stakeholders, and a Team Lead. Our team had no prior context to what we were building, and the project was a greenfield(developed from scratch). This gauntlet is called Labs and is required of all students that attend Lambda School. 
+
+[Lambda School](https://lambdaschool.com/) is 100% live and online and uses interactive technology to teach people the tech skills they need to launch a new career in just 9 months. I currently attend the Data Science program and am one of the Data Scientist/Data Engineers on the project.
 
 <p align="center">
   <img width="700" height="350" src="https://media.giphy.com/media/fw8hWPw7M7jsvtq1QN/giphy.gif">
 </p>
-
-<center> <H1>Introduction</H1> </center>
-
-Over the last two months, I have been working on a cross-functional team consisting of Web Developers, Data Scientists, Data Engineers, Stakeholders, and a Team Lead. Our team had no prior context to what we were building, and the project was a greenfield(developed from scratch). This gauntlet is called Labs and is required of all students that attend Lambda School. 
-
-[Lambda School](https://lambdaschool.com/) is 100% live and online and uses interactive technology to teach people the tech skills they need to launch a new career in just 9 months. I currently attend the Data Science program and am one of the Data Scientist/Data Engineers on the project.
 
 <center> <H1>Team</H1> </center>
 
