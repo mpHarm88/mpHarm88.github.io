@@ -23,13 +23,18 @@ navbar-links:
   About Me: "about_me"
   Projects:
     - Presidential Campaign Funding 🥞: "https://www.mikioharman.com/2019-09-28-funding/"
-    - Winter Hackathon CNN 👩‍🦼: "https://www.mikioharman.com/2020-01-06-wheelgood/"
+    - Winter Hackathon👩‍🦼: "https://www.mikioharman.com/2020-01-06-wheelgood/"
     - Medicinal Cannabis Recommender 🧬: "https://www.mikioharman.com/2020-02-07-budAPI/"
     - 2,700 Skincare Reviews 🧑🏼‍🔬: "https://www.mikioharman.com/2020-02-07-paula/"
     - Black Box Classification 🔎: "https://www.mikioharman.com/2020-03-03-blackbox/"
     - Recommending Songs w/ ML 🎵: "https://www.mikioharman.com/2020-06-28-database/"
     - Streetsmarts 🚙: "https://www.mikioharman.com/2020-06-20-streetsmarts/"
     - Python Data Warehousing w/ Azure 🔌: "https://www.mikioharman.com/2020-06-28-database/"
+    - Python Lists 🐍: "https://www.mikioharman.com/2020-07-27-lists/"
+    - Python Dictionaries 🐍: "https://www.mikioharman.com/2020-07-28-dictionary/"
+    - Python Strings 🐍: "https://www.mikioharman.com/2020-07-30-strings/"
+    - Plotting with PPP Data 📊: "https://www.mikioharman.com/2020-08-01-pppandas/"
+    - DBSCAN w/ Python 📡: "https://www.mikioharman.com/2020-08-24-dbscan/"
     
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
