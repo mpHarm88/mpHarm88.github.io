@@ -1,13 +1,14 @@
 ---
 title: About Me
-subtitle: a little about myself
 layout: page
 ---
 
-Hello,
+ Mikio Harman was born and raised in Seattle, WA. He spends his time trying to increase data literacy to his peers, talking about new ideas, and cooking. He currently moonlights as a Data Scientist for a startup in Seattle, focusing on optimizing the HR recruiting process. He attended the Data Science program at Lambda School and is currently a Data Science Fellow at Correlation One. 
 
-Thank you so much for stopping by my page. My name is Mikio Harman, and I'm a Data Scientist in Seattle, WA. I'm currently enrolled at Lambda School's Data Science program and should be graduating in June 2020. If you would like to inquire about a potential opportunity, please feel free to send me an email or contact me on twitter. 
+Mikio held various roles before transitioning into Data Science, including being a small business owner and being a manager. He now uses his previous experience to communicate ideas effectively and bring a business-first mindset to any project he joins. 
 
-I think DataScience is one of the most exciting and challenging jobs in the world. I thoroughly enjoy discovering new intuitions when it comes to data. Every data set has a story, and I'm just one person that can help you tell it. 
+If you're interested in connecting with Mikio, please send an email or reach out over LinkedIn. 
 
-Enjoy your stay and feel free to provide any feedback about my posts.
+If your an employer looking for a competent Data Scientist with deployment experience, please use the mail button at the bottom of the page and reach out. 
+
+Thanks for visiting, and enjoy your stay!
